@@ -1,0 +1,12 @@
+{
+  "total_turns": 25,
+  "initial_setup": {"retailer":{"retailer_inventory": 12, "retailer_shipping_delays": [4, 4]},
+                    "wholesaler": {"wholesaler_inventory": 12, "wholesaler_shipping_delays": [4, 4], "wholesaler_order_delays": [4, 4]},
+                    "distributor": {"distributor_inventory":12, "distributor_shipping_delays": [4, 4], "distributor_order_delays": [4, 4]},
+                    "factory": {"factory_inventory": 12, "factory_shipping_delays": [4, 4], "factory_order_delays": [4, 4], "factory_initial_factory_request": 4}},
+  "weekly_customer_demand": [4, 4, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8],
+  "weekly_retailer_decision": [4,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8],
+  "weekly_wholesaler_decision": [4,6,6,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8],
+  "weekly_distributor_decision": [4,6,7,8,8,7,8,7,8,7,8,7,8,7,8,8,8,8,8,8,8,8,8,8,8],
+  "weekly_factory_decision": [4,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,7,8,8,8,8,8,8,8,8]
+}

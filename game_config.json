@@ -1,0 +1,12 @@
+{
+  "total_turns": 25,
+  "initial_setup": {"retailer":{"retailer_inventory": 12, "retailer_shipping_delays": [4, 4]},
+                    "wholesaler": {"wholesaler_inventory": 12, "wholesaler_shipping_delays": [4, 4], "wholesaler_order_delays": [4, 4]},
+                    "distributor": {"distributor_inventory":12, "distributor_shipping_delays": [4, 4], "distributor_order_delays": [4, 4]},
+                    "factory": {"factory_inventory": 12, "factory_shipping_delays": [4, 4], "factory_order_delays": [4, 4], "factory_initial_factory_request": 4}},
+  "weekly_customer_demand": [4, 4, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8],
+  "weekly_retailer_decision": [5,3,4,5,5,6,8,12,10,10,15,10,12,16,20,17,17,10,8,4,4,0,0,0,2],
+  "weekly_wholesaler_decision": [3,5,5,5,5,5,7,7,9,12,12,15,20,22,25,30,45,45,60,60,60,30,30,30,30],
+  "weekly_distributor_decision": [5,5,6,4,6,5,4,3,1,2,10,16,30,40,45,45,50,30,60,40,30,30,20,15,0],
+  "weekly_factory_decision": [0,6,5,4,4,6,5,5,4,5,3,3,6,10,40,100,150,150,50,0,0,0,0,0,0]
+}
