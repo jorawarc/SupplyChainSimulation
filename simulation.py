@@ -67,7 +67,7 @@ def factory_decision_making(factory):
 
 
 def main():
-    config = load_config("optimal_config.json")
+    config = load_config("game_config.json")
     simulation = supply_chain.SupplyChainSimulation(**{**config["initial_setup"]["retailer"],
                                                        **config["initial_setup"]["wholesaler"],
                                                        **config["initial_setup"]["distributor"],
